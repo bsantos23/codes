@@ -159,7 +159,7 @@ func main() {
 		Addr: "127.0.0.1:8081",
 	}
 */
-	http.HandleFunc("/hello", hello)
+	http.HandleFunc("/integracao/integracao.php", hello)
 	http.HandleFunc("?????", integracao)
 	http.ListenAndServe(":80", nil)
 	// server.ListenAndServe()
